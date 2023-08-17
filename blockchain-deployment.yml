@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
       - name: node1
-        image: localhost:5000/blockchain
+        image: localhost:5001/blockchain
         ports:
         - containerPort: 5001
       - name: node2
-        image: localhost:5000/blockchain
+        image: localhost:5001/blockchain
         ports:
         - containerPort: 5001
       - name: node3
-        image: localhost:5000/blockchain
+        image: localhost:5001/blockchain
         ports:
         - containerPort: 5001
