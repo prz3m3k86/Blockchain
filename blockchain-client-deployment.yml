@@ -13,11 +13,11 @@ spec:
         app: blockchain-client
     spec:
       containers:
-      - name: blockchain-client
-        image: localhost:5000/blockchain-client
+      - name: przemek
+        image: localhost:8081/blockchain-client
         ports:
         - containerPort: 8081
-      - name: blockchain-client
-        image: localhost:5000/blockchain-client
+      - name: wsei
+        image: localhost:8081/blockchain-client
         ports:
         - containerPort: 8081
