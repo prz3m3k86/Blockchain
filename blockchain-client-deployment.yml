@@ -17,7 +17,3 @@ spec:
         image: localhost:8081/blockchain-client
         ports:
         - containerPort: 8081
-      - name: wsei
-        image: localhost:8081/blockchain-client
-        ports:
-        - containerPort: 8081
