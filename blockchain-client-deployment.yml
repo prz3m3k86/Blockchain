@@ -15,5 +15,6 @@ spec:
       containers:
       - name: przemek
         image: localhost:5000/blockchain-client
+        imagePullPolicy: Never
         ports:
         - containerPort: 8081
