@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node1
-        image: localhost:5001/blockchain
+        image: localhost:5000/blockchain
         ports:
         - containerPort: 5001
